@@ -1,0 +1,136 @@
+.jumbotron {
+  background-color: #f0fff0;
+  padding: 1rem 5rem;
+}
+.container img {
+  width: 100%;
+  height: 135px;
+}
+/* body {
+  background: #f0fff0;
+} */
+
+span .text {
+  color: black;
+}
+.container p {
+  text-align: justify;
+}
+
+.container h6 {
+  text-align: center;
+  padding: 10px;
+}
+
+.klien .client {
+  width: 0px;
+}
+
+/*--responsive--*/
+@media (max-width: 800px) {
+  section img {
+    width: 50%;
+    height: 200px;
+  }
+  p {
+    font-size: smaller;
+    text-align: justify;
+  }
+
+  .container img {
+    width: 100%;
+    height: 60px;
+  }
+
+  .klien .client {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media (min-width: 500px) {
+  section img {
+    width: 50%;
+    height: 300px;
+  }
+  .klien .client {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  section img {
+    width: 50%;
+    height: 500px;
+  }
+  .container img {
+    width: 100%;
+    height: 100px;
+  }
+  .klien .client {
+    width: 165px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  section img {
+    width: 50%;
+    height: 550px;
+  }
+  .container img {
+    width: 100%;
+    height: 130px;
+  }
+}
+@media (min-width: 1000px) {
+  section img {
+    width: 50%;
+    height: 550px;
+  }
+  .container img {
+    width: 100%;
+    height: 133px;
+  }
+}
+
+@media (min-width: 1300px) {
+  section img {
+    width: 50%;
+    height: 500px;
+  }
+  .container img {
+    width: 100%;
+    height: 135px;
+  }
+
+  .klien .client {
+    align-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .klien .client {
+    width: 90px;
+    height: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .klien .client {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1023px) {
+  .klien .client {
+    width: 130px;
+    height: auto;
+  }
+}
+
+section {
+  padding-top: 5rem;
+}
